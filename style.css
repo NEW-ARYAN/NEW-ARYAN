@@ -1,0 +1,96 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'popplins',sans-serif;
+}
+body{
+    display: flex;
+    background-image: url('aryan.jpeg');
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+ .abc{
+    position: absolute;
+    top: 10%;
+   
+    text-transform: capitalize;
+    
+
+} 
+.aryan{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+    height: 400px;
+    width: 300px;
+    color:white;
+    background-color:rgba(25 26 32/50%);
+    border-radius: 20px;
+    border-width: 3px;
+    border-color:rgb(235, 134, 46);
+    border-style: double;
+    /* padding:30px; */
+    align-items: center;
+    overflow: hidden;
+    
+}
+.aryan::before{
+    content:'';
+    position: absolute;
+    width:300px;
+    height:400px;
+
+    border-color: rgb(235, 134, 46);
+    box-shadow: 0 0 20px rgb(8,8,8);
+    animation:animate 4s linear infinite;
+
+}
+.aryan::after{
+    content:'';
+    position: absolute;
+    
+inset:10px;
+    border-color: rgb(235, 134, 46);
+   border-radius: 16px;
+} 
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.vicky{
+    height: 100px;
+    width: 100px;
+    border-radius: 90px;
+    background-image: url('aryan007.jpeg');
+    background-size: cover;
+    font-family: 'popplins',sans-serif;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom:10%;
+    right:10%;
+    border-width: 3px;
+    border-style: double;
+    border-color:rgb(235, 134, 46);
+    overflow: hidden;
+    align-items: center;
+    transition-property: all 1s step ;
+
+}
+div:hover{
+  
+    background-image: url('aryan.jpeg');
+    background-size: cover;
+}
+
+

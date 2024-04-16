@@ -1,0 +1,285 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navi{
+    
+    height: 50px;
+    background-color:#db4731;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+}
+.border{
+    border: 2px solid white;
+}
+a{
+  
+ margin-right: 140px; 
+border-width: 2px;
+box-sizing: border-box;
+color: antiquewhite;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+border-color: #fffcfc;
+border-radius: 2px;
+}
+/* .ani{
+    height: 300px;
+    width: 400px;
+    background-color:rgba(25 26 32/50%);
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    animation: aryan 2s ease-in 0s infinite normal;
+   
+}
+@keyframes aryan{
+    from{
+        transform: rotate(0deg);
+        transform: translateX(30);
+    }
+    to{
+        transform: rotate(360deg);
+        transform: translateX(-30);
+    }
+} */
+ .image{
+    
+    height: 600px;
+    background-image: url('aryan321.jpeg');
+    background-size: cover;
+   }
+.aryan{
+    height: 40px;
+    width: 70px;
+    background-color: #ffffff;
+}
+#id{
+    position:-webkit-sticky;
+    top: 50px;
+    left: 2px;
+}
+#MM{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+   
+}
+#aryan1{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    height: 400px;
+    width: 1000px;
+    background-color: rgba(25 26 32/50%);
+
+}
+#ss{
+    color: #ffffff;
+    background-color: rgb(212, 75, 75);
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    text-align: center;
+}
+#as{
+    color: #ffffff;
+    background-color:rgb(48, 45, 45);
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 0%;
+    left: 55%;
+    text-align: center;
+
+}
+#ass{
+    background-color: black;
+    color: #ffffff;
+    height: 40px;
+    width: 400px;
+    position: relative;
+    top: 0%;
+    left: 35%;
+    text-align: center;
+}
+.ww{
+    background-color: transparent;
+    width:400px;
+    height: 80px;
+    position: relative;
+    left: 35%;
+    display:flex;
+    flex-direction: row;
+
+}
+#ary{
+    color: #fffcfc;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+#ttt{
+    color: #ffffff;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+
+}
+#yy{
+    color: #ffffff;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    
+
+}
+#jjj{
+    color: #ffffff;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+.qqq{
+    height: 80px;
+    width: 450px;
+    position: relative;
+    left: 35%;
+    top:0%;
+    background-color:transparent;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.ma{
+  background-image: url('aryan001.jpeg');
+  background-size:cover;
+   height: 1000px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    
+}
+.bb{
+    position: relative;
+    top: 80%;
+    left: 40%;
+    height: 200px;
+    display:inline-block
+    
+}
+
+/* #rr{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    width: 40px;
+}
+#uu{
+    position: relative;
+    width: 40px;
+    left: 300px;
+}
+#ss{
+    position: relative;
+    left: 500px;
+    width: 40px;
+}
+#suu{
+    position: relative;
+    left: 700px;
+    
+
+} */
+.xyz{
+    height: 500px;
+    background-color:#db4731;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    color: #fffcfc;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#mfgw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    height: 200px;
+    width: 350px;
+    position: sticky;
+    top: 40px;
+    background-image: url('aryan666.jpeg');
+    background-size: cover;
+}
+.dd{
+    height: 10px;
+    width: 10px;
+
+}
+.ddd{
+    height: 10px;
+    width: 10px;
+
+}
+.at{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    background-image: url('aryan377.jpeg');
+    background-size: cover;
+    position: sticky;
+    top: 150px;
+    transition: all;
+    transform: rotate(360deg);
+    color: black;
+    animation: aryan 2s ease-in 0s infinite normal;
+
+}
+@keyframes aryan{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.AM{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.india{
+    background-image: url('india.jpeg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    position: sticky;
+    top: 0px;
+    animation: yadav 3s ease-in 0s infinite normal;
+}
+@keyframes yadav{
+    from{
+        transform: rotate(0deg);
+        transform: scale(3);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+/* div:hover{
+    transform: rotate(360deg);
+} */
+
+
+
+  
